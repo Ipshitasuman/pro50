@@ -1,0 +1,49 @@
+
+ h1{
+    color:hsl(264, 53%, 46%)
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+hr {
+    background-color: rgb(126, 121, 121);
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+background-color: plum;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: black;
+}
+
+.body img{
+    color: black;   
+}
+
+body{
+    background-color:unset;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.grid{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:white;
+
+    width: 310px;
+    font-family: cursive;
+}
